@@ -1,0 +1,37 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+serviceAccountKey.json.json
+
+# Build files
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Editor/OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Coverage reports
+coverage/
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Cache
+.cache/
+
+# Misc
+public/static/
