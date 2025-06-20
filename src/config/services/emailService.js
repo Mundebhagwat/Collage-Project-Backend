@@ -9,7 +9,7 @@ const transporter = nodemailer.createTransport({
 });
 
 const sendVerificationEmail = async (email, token) => {
-    const url = `https://backend-for-mangalastak.onrender.com/api/emailverify/verify-email?token=${token}`;
+    const url = `https://collage-project-backend-j2vf.onrender.com/api/emailverify/verify-email?token=${token}`;
     await transporter.sendMail({
         from: process.env.EMAIL_USER,
         to: email,
